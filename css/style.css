@@ -575,7 +575,10 @@ body {
   .language {
     position: absolute;
     font-size: 16px;
-    left: 50%; }
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); }
   .header__btn {
     color: #fff;
     font-size: 16px;
